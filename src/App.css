@@ -1,67 +1,69 @@
-.navigation{
-  background-color: #0B156F;
-  list-style: none;
-  display: flex;
-  color: '#ffffff';
-  border-bottom-right-radius: 20;
-  border-bottom-left-radius: 20;
-  height: '30%';
-  }
-
-.ImageHeader{
-flex-direction: row;
-align-content: space-around;
-display: flex;
-
+.navigation {
+    background-color: #0B156F;
+    list-style: none;
+    display: flex;
+    color: '#ffffff';
+    border-bottom-right-radius: 20;
+    border-bottom-left-radius: 20;
+    height: '30%';
 }
 
-.form-label{
-  color:#0B156F;
-  font-weight: bold;
-  margin-left: 40px;
-}
-.form-control{
-  border-color: #0B156F;
-  border-width: 2px;
-  width: 80%;
-  border-radius: 10px;
-  margin-left: 40px;
-
+.ImageHeader {
+    flex-direction: row;
+    align-content: space-around;
+    display: flex;
 }
 
-.row{
-  margin-left: 40px;
+.form-label {
+    color: #0B156F;
+    font-weight: bold;
+    margin-left: 40px;
 }
 
-.btn-light{
-  margin-left: 40px;
-  border-color: #0B156F;
- background-color: #0B156F;
-color: white;
+.form-control {
+    border-color: #0B156F;
+    border-width: 2px;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 40px;
 }
 
+.row {
+    margin-left: 40px;
+}
 
-.fluid-container{
-  width: 400px;
-  height: '105%';
-  background: #fff;
-  margin: 25px auto;
-  border-color: #0B156F;
-  /* border-width: 3 red;
+.btn-light {
+    margin-left: 40px;
+    border-color: #0B156F;
+    background-color: #0B156F;
+    color: white;
+}
+
+.fluid-container {
+    width: 400px;
+    height: '105%';
+    background: #fff;
+    margin: 25px auto;
+    border-color: #0B156F;
+    /* border-width: 3 red;
   border-radius: 10;
   border-color:red ; */
-  /* borderColor: 'red';
+    /* borderColor: 'red';
   borderRadius:10;
   borderWidth: 3; */
-  
 }
 
-.link-secondary{
-  margin-left: 40px;
-
+.link-secondary {
+    margin-left: 40px;
 }
 
-.btn-light{
-  margin-left: 40px;
-width:'30%';
+.btn-light {
+    margin-left: 40px;
+    width: '30%';
+}
+
+.d-inline-block {
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
 }
