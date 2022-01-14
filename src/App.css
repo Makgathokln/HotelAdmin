@@ -67,3 +67,26 @@
     justify-content: space-between;
     align-content: space-between;
 }
+
+
+/* 
+.mid {
+    padding-bottom: 40;
+} */
+
+.headed {
+    background-color: aqua;
+}
+
+.mid {
+    background-color: blue;
+    height: '10%';
+}
+
+.foot {
+    background-color: violet;
+}
+
+.d-flex {
+    background-color: #0B156F;
+}

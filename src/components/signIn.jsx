@@ -12,6 +12,9 @@ import pin2  from '../images/pin2.jpg';
 import pin3 from '../images/pin3.jpg';
 
 import "../App.css";
+import { BrowserRouter } from "react-router-dom";
+import Bookings from "./bookings";
+import Notifications from "./notifications";
 
 const signIn = () => {
     return(
@@ -58,6 +61,7 @@ const signIn = () => {
 
 </Router>           
     
+   
      </>
     )
     

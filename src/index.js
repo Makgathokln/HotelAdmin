@@ -1,23 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { ReactDOM } from "react";
 import './index.css';
-import SignIn from './components/signIn';
-import SignUp from './components/signUp';
-import Welcome from './components/welcome';
-import reportWebVitals from './reportWebVitals';
-import Notifications from './components/notifications';
-
+import App from './App';
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render( <
-    React.StrictMode >
+    BrowserRouter >
     <
-    Notifications / >
+    App / >
     <
-    /React.StrictMode>,
+    /BrowserRouter>,
     document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
