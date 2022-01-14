@@ -1,18 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import SignIn from './components/signIn';
-import SignUp from './components/signUp';
-import Welcome from './components/welcome';
-import Bookings from './components/bookings';
-import Guests from './components/guests';
-import Rooms from './components/rooms';
-import Notifications from './components/notifications';
-import Home from './components/home';
-import Admin from './components/admin';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+// import SignIn from './components/signIn';
+// import SignUp from './components/signUp';
+// import Welcome from './components/welcome';
+// import Bookings from './components/bookings';
+// import Guests from './components/guests';
+// import Rooms from './components/rooms';
+// import Notifications from './components/notifications';
+// import Home from './components/home';
+// import Admin from './components/admin';
 
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// import reportWebVitals from './reportWebVitals';
+// import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // function App() {
 //     return (
