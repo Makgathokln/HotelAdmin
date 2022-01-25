@@ -66,12 +66,15 @@ import './index.css';
 import SignIn from './components/signIn';
 import SignUp from './components/signUp';
 import Welcome from './components/welcome';
+import Menu from './components/menu';
 import Notifications from './components/notifications';
 import reportWebVitals from './reportWebVitals';
 
+export function App() {
+
 ReactDOM.render( 
     <React.StrictMode>
-    <Notifications/>
+    <Menu/>
     </React.StrictMode>,
     document.getElementById('root')
 );
@@ -81,4 +84,4 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals(); 
 
-
+}
